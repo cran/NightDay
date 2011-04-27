@@ -31,3 +31,4 @@ timezone <- 1
 plot(NightDay(Time, timezone))
 }
 
+

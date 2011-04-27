@@ -1,4 +1,3 @@
-
 plot.NightDay <- function(x, maps = "world", add = FALSE, ...) {
 
    yy <- x$Latitude
@@ -15,7 +14,7 @@ plot.NightDay <- function(x, maps = "world", add = FALSE, ...) {
    }else{
      x <- x0 - x
    }
-   
+
    if( tz >= 0 ) {
      tz <- paste("+", tz)
    }
@@ -43,4 +42,3 @@ plot.NightDay <- function(x, maps = "world", add = FALSE, ...) {
      rect(xleft=-200, ybottom=-90, xright=200, ytop=min(yy), density=20, col="grey", border=NA)
      }
 }
-

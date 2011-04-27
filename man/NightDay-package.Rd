@@ -23,9 +23,6 @@ Max Hughes-Brandl
 Maintainer: \email{gordonmax@hotmail.de}
 
 }
-\references{
-\url{http://www.jgiesen.de/}
-}
 
 \examples{
 Time <- Sys.time()

@@ -1,6 +1,5 @@
-
 NightDay <- function(time, timezone){
-      
+
    is.wholenumber <- function(timezone, tol = .Machine$double.eps^0.5){
       abs(timezone - round(timezone)) < tol
    }
