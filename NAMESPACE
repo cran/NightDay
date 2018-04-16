@@ -8,3 +8,8 @@ exportPattern(".")
 import(
   maps
 )
+
+importFrom("graphics",
+           "abline", "lines", "points", "polygon", "rect", "title")
+
+S3method(plot, NightDay)
